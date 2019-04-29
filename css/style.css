@@ -900,7 +900,7 @@ color: #fff;
 }
 
 .ba-burger-menu-close {
-	font-size: 40px;
+	font-size: 40px!important;
 }
 
 
@@ -915,7 +915,7 @@ color: #fff;
 }
 
 .ba-del-scroll {
-	overflow: hidden;
+	overflow: hidden!important;
 }
 
 
