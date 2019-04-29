@@ -34,12 +34,12 @@ var buttonPlus = document.querySelectorAll('.fa-plus');
 
         burgerButton.addEventListener('click', function () {
             menuToggle.classList.add('ba-show');
-            body.classList.add('ba-del-srcoll');
+            body.classList.add('ba-del-scroll');
         });
 
         burgerCloseButton.addEventListener('click', function () {
             menuToggle.classList.remove('ba-show');
-            body.classList.remove('ba-del-srcoll');
+            body.classList.remove('ba-del-scroll');
         });
 
         var mobUl = document.querySelectorAll('.ba-menu-mob a');
@@ -48,7 +48,7 @@ var buttonPlus = document.querySelectorAll('.fa-plus');
         mobUl.forEach(function (item) {
             item.addEventListener('click', function () {
                 menuToggle.classList.remove('ba-show');
-                body.classList.remove('ba-del-srcoll');
+                body.classList.remove('ba-del-scroll');
             });
         });
 
