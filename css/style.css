@@ -899,6 +899,9 @@ color: #fff;
 	right: 20px;
 }
 
+.ba-burger-menu-close {
+	font-size: 40px;
+}
 
 
 .ba-menu-mob li:not(:first-child) a:hover {
